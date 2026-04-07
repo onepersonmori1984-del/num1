@@ -7,6 +7,8 @@ export default function Header() {
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/blog">Blog</Link>
+        <Link href="/useEffect">useEffect</Link>
+        <Link href="/parallel">parallel</Link>
       </nav>
     </header>
   )

@@ -1,5 +1,8 @@
 
 // トップページ
+// React Server Components なので、デフォルトでサーバーサイドで構築され、レンダリングされる。
+// 　⇒SEOに強くなる。初期表示が速くなる。
+
 // link は a よりも早い。SPA的遷移（Nextの本領）⇒ UX・速度・キャッシュすべてに影響
 import Link from "next/link"
 

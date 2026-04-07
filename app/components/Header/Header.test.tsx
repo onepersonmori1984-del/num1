@@ -8,5 +8,7 @@ describe('Header component', () => {                //Headerコンポーネン�
     expect(screen.getByText('Home')).toBeInTheDocument() //Homeというテキストがあるか
     expect(screen.getByText('About')).toBeInTheDocument() //Aboutというテキストがあるか
     expect(screen.getByText('Blog')).toBeInTheDocument() //Blogというテキストがあるか
+    expect(screen.getByText('useEffect')).toBeInTheDocument() //useEffectというテキストがあるか
+    expect(screen.getByText('parallel')).toBeInTheDocument() //parallelというテキストがあるか
   })
 })
